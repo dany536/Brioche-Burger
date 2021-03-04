@@ -1,0 +1,22 @@
+.background{
+    background-color: #3C3B65;
+    color: #D3D4E9;
+    padding: 30px;
+    text-align: center;
+    font-family: 'hero';
+}
+
+.container{
+color: #3C3B65;
+}
+
+.container > h1{
+    font-weight: bolder;
+}
+
+.btn-info{
+    background-color: #3C3B65;
+    color: #D3D4E9;
+    font-weight: bold;
+    font-size: large;
+}

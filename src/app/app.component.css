@@ -1,0 +1,92 @@
+/* .active{
+    margin-bottom: -100px;
+
+} */
+
+.active, a:hover{
+    background-color: #EA5E20;
+    color: white !important;
+    border-radius: 25px;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #25254C;
+    height: 2px;
+    width: auto;
+    /* padding: -20px; */
+    margin-top: 17px !important;
+    margin-right: 8px;
+    padding: 18px 18px 20px 18px !important;
+}
+
+.active >.burger{
+    margin-top: -18px;
+}
+
+a:hover >.burger{
+    margin-top: -18px;
+}
+
+a:hover >.test{
+    margin-top: -13px;
+}
+
+.active >.test{
+    margin-top: -13px;
+}
+
+.burger{
+    text-align: center;
+    margin-bottom: -12px;
+    font-size:small;
+}
+
+.navbar-nav > li > a{
+    color: #232452;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 25px;
+}
+
+.act{
+    color: #232452;
+    font-weight: bold;
+    font-size: large;
+    margin-top: -5px;
+    /* padding: 25px; */
+}
+
+.act:hover{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-top: -5px;
+    /* padding: 25px; */
+}
+
+.foot{
+    color: white;
+    background-color: #3C3B65;
+    margin-bottom: -16px;
+    padding: 0px;
+    
+}
+
+.footimg{
+    background-color: #3C3B65;
+    margin-bottom: -15px;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
+  hr{
+      margin-bottom: 0px;
+      margin-top: 5px;
+      border-top: 2px dotted #EA5E20;
+  }
