@@ -20,3 +20,17 @@ color: #3C3B65;
     font-weight: bold;
     font-size: large;
 }
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.btn-info {
+      font-size: small;
+    }
+.text-center > h1{
+        font-size: larger;
+    }
+.text-center > p{
+        font-size: small;
+    }
+
+  }

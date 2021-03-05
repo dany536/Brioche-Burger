@@ -67,8 +67,10 @@ a:hover >.test{
     background-color: #3C3B65;
     margin-bottom: -16px;
     padding: 0px;
-    
+    font-size: small;
 }
+
+
 
 .footimg{
     background-color: #3C3B65;

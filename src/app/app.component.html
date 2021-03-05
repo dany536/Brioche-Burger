@@ -33,16 +33,16 @@
               </i>
             </div>          
             <li class="nav-item">
-              <a class="nav-link" routerLinkActive="active" routerLink="/menu" href="#"><p class="test">MENU</p></a>
+              <a class="nav-link text-center" routerLinkActive="active" routerLink="/menu" href="#"><p class="test">MENU</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" routerLinkActive="active" routerLink="/gallery" href="#"><p class="test">GALLERY</p></a>
+              <a class="nav-link text-center" routerLinkActive="active" routerLink="/gallery" href="#"><p class="test">GALLERY</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" routerLinkActive="active" routerLink="/contactus" href="#"><p class="test">CONTACT</p></a>
+              <a class="nav-link text-center" routerLinkActive="active" routerLink="/contactus" href="#"><p class="test">CONTACT</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link text-center" href="#">
                 <div class="test dropdown">
                   <button class="btn dropdown-toggle act" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     ACCOUNT
@@ -69,10 +69,18 @@
     </nav> 
 
 <router-outlet></router-outlet>
-<div class="footimg">
-  <img class="img-fluid" src="assets/chatbot.jpg.png" alt="" srcset="">
-  <img class="float-right img-fluid" src="assets/socialmedia.png" alt="" srcset="">
+<div class="d-sm-none" style="height: 70px; background-color: #3C3B65;">
+</div>
+
+<div class="row footimg m-0">
+  <div class="col-md-6 col-6">
+    <img class="img-fluid" src="assets/chatbot.jpg.png" alt="" srcset="">
+  </div>
+  <div class="col-md-6 col-6">
+    <img class="img-fluid float-right" src="assets/socialmedia.png" alt="" srcset="">
+  </div>
 </div>
 <div class="foot">
   <p style="margin-left: 10px;">Brioche Burger Limited 2020 | Privacy Policy | Term of Use | Cookies</p>
 </div>
+
